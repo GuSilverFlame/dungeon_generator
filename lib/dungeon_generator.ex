@@ -56,17 +56,17 @@ defmodule DungeonGenerator do
   def points({x_1, y_1, x_2, y_2}) do
     Enum.reduce(y_1..y_2, [], fn y, acc ->
       Enum.reduce(x_1..x_2, acc, fn x, acc ->
-        [{y, x} | acc]
+        [{x, y} | acc]
       end)
     end)
   end
 
   defp connect_dots(x_1, y_1, x_2, y_2) when y_1 == y_2 do
-    Enum.map(x_1..x_2, fn x -> {y_1, x} end)
+    Enum.map(x_1..x_2, fn x -> {x, y_1} end)
   end
 
   defp connect_dots(x_1, y_1, x_2, y_2) when x_1 == x_2 do
-    Enum.map(y_1..y_2, fn y -> {y, x_1} end)
+    Enum.map(y_1..y_2, fn y -> {x_1, y} end)
   end
 
   defp connect_dots(x_1, y_1, x_2, y_2) do
