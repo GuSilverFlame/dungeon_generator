@@ -1,6 +1,7 @@
 # DungeonGenerator
+## A simple but amazing program!
 
-**TODO: Add description**
+It is capable of automatically generating a complete dungeon.
 
 ## Installation
 
@@ -16,6 +17,6 @@ end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/dungeon_generator](https://hexdocs.pm/dungeon_generator).
+and published on [HexDocs](https://hexdocs.pm).
+Once published, the docs can be found at [https://hexdocs.pm/dungeon_generator](https://hexdocs.pm/dungeon_generator).
 

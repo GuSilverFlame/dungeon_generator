@@ -1,24 +1,31 @@
 # The directory Mix will write compiled artifacts to.
+O diretório Mix gravará artefatos compilados.
 /_build/
 
 # If you run "mix test --cover", coverage assets end up here.
+# Se você executar o "mix test --cover", os ativos de cobertura acabarão aqui.
 /cover/
 
 # The directory Mix downloads your dependencies sources to.
+# O diretório Mix baixa as fontes de suas dependências.
 /deps/
 
 # Where third-party dependencies like ExDoc output generated docs.
+# Onde dependências de terceiros, como a saída ExDoc, geraram documentos.
 /doc/
 
 # Ignore .fetch files in case you like to edit your project deps locally.
+# Ignore os arquivos .fetch no caso de você gostar de editar os deps do projeto localmente.
 /.fetch
 
 # If the VM crashes, it generates a dump, let's ignore it too.
+# Se a VM travar, ela gera um despejo, vamos ignorá-lo também.
 erl_crash.dump
 
 # Also ignore archive artifacts (built via "mix archive.build").
+# Ignore também os artefatos de arquivamento (criados via "mix archive.build").
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
+# Ignora o pacote tarball (criado via "mix hex.build").
 dungeon_generator-*.tar
-
